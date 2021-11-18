@@ -14,3 +14,4 @@ if(NOT HC_SKIP_TESTS)
 endif()
 
 add_subdirectory(vector)
+add_subdirectory(stack)
