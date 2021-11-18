@@ -15,5 +15,7 @@ TEST(Vector, PushBack) {
     v.pushBack(2);
     v.pushBack(3);
     EXPECT_EQ(v.size(), 3);
+    EXPECT_EQ(v.front(), 1);
+    EXPECT_EQ(v.back(), 3);
     SUCCEED();
 }

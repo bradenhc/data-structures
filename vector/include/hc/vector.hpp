@@ -142,13 +142,13 @@ class Vector {
 
     void assertInRange(size_t index) {
         if (index >= _size) {
-            throw std::out_of_range();
+            throw std::out_of_range("index out of vector range");
         }
     }
 
     void assertNotEmpty() {
         if (empty()) {
-            throw std::out_of_range();
+            throw std::out_of_range("vector is empty");
         }
     }
 };
